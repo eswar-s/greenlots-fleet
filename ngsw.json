@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1579640303618,
+  "timestamp": 1579640511164,
   "index": "/greenlots-fleet/index.html",
   "assetGroups": [
     {
@@ -12,8 +12,8 @@
         "/greenlots-fleet/5-es5.9c31d8ad8e052e8c4140.js",
         "/greenlots-fleet/favicon.ico",
         "/greenlots-fleet/index.html",
-        "/greenlots-fleet/main-es2015.0d14fa41163fb0b464bb.js",
-        "/greenlots-fleet/main-es5.0d14fa41163fb0b464bb.js",
+        "/greenlots-fleet/main-es2015.b5fbdb35c04b2803bb6c.js",
+        "/greenlots-fleet/main-es5.b5fbdb35c04b2803bb6c.js",
         "/greenlots-fleet/manifest.webmanifest",
         "/greenlots-fleet/polyfills-es2015.66f22d07ce30f308d850.js",
         "/greenlots-fleet/polyfills-es5.072996a6e2aff385d46c.js",
@@ -38,7 +38,8 @@
         "/greenlots-fleet/assets/icons/icon-96x96.png",
         "/greenlots-fleet/assets/logos/greenlots.svg",
         "/greenlots-fleet/assets/svg/flash.svg",
-        "/greenlots-fleet/assets/svg/qr.svg"
+        "/greenlots-fleet/assets/svg/qr.svg",
+        "/greenlots-fleet/greenlots.7bb1c2bfb0a090dd803a.svg"
       ],
       "patterns": [
         "https:\\/\\/fonts\\.googleapis\\.com\\/.*",
@@ -62,9 +63,10 @@
     "/greenlots-fleet/assets/svg/flash.svg": "509dd9873325521c74b2fb609c21c9f9bd5de545",
     "/greenlots-fleet/assets/svg/qr.svg": "26802f2b30e216f193bb95c577d59db432d74c0d",
     "/greenlots-fleet/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/greenlots-fleet/index.html": "f4b855e2c663395a1eb0f44f8ec7153cb0281efa",
-    "/greenlots-fleet/main-es2015.0d14fa41163fb0b464bb.js": "8f5883092e798ddf343b4f748641347ac7fb82ce",
-    "/greenlots-fleet/main-es5.0d14fa41163fb0b464bb.js": "9f3b7825f6215712d9a5edb45ad0a3ea3f2a4371",
+    "/greenlots-fleet/greenlots.7bb1c2bfb0a090dd803a.svg": "759488d74dc014dfb317dc8a198e9052d09a7b71",
+    "/greenlots-fleet/index.html": "db5ca1cb51f4cfd73dd7289e37634b80f1acc33d",
+    "/greenlots-fleet/main-es2015.b5fbdb35c04b2803bb6c.js": "38816d16dadc7660cd7234680fa9ed464c211881",
+    "/greenlots-fleet/main-es5.b5fbdb35c04b2803bb6c.js": "ba028529b721b8d8879d636b3685dcaecd00e806",
     "/greenlots-fleet/manifest.webmanifest": "bce7aee0393d60b28d8f6e8fb49d28db49541be9",
     "/greenlots-fleet/polyfills-es2015.66f22d07ce30f308d850.js": "8779ed8d9bf0580e1b50b352a9b8fd520be24433",
     "/greenlots-fleet/polyfills-es5.072996a6e2aff385d46c.js": "265946cd9cab1b54c805b1580c6c30ed7c3f3e18",
