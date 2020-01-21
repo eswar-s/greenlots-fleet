@@ -1,0 +1,93 @@
+{
+  "configVersion": 1,
+  "timestamp": 1579640303618,
+  "index": "/greenlots-fleet/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/greenlots-fleet/5-es2015.9c31d8ad8e052e8c4140.js",
+        "/greenlots-fleet/5-es5.9c31d8ad8e052e8c4140.js",
+        "/greenlots-fleet/favicon.ico",
+        "/greenlots-fleet/index.html",
+        "/greenlots-fleet/main-es2015.0d14fa41163fb0b464bb.js",
+        "/greenlots-fleet/main-es5.0d14fa41163fb0b464bb.js",
+        "/greenlots-fleet/manifest.webmanifest",
+        "/greenlots-fleet/polyfills-es2015.66f22d07ce30f308d850.js",
+        "/greenlots-fleet/polyfills-es5.072996a6e2aff385d46c.js",
+        "/greenlots-fleet/runtime-es2015.37f973100551c1c2b1c1.js",
+        "/greenlots-fleet/runtime-es5.37f973100551c1c2b1c1.js",
+        "/greenlots-fleet/styles.05997d46e37c206fbf21.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/greenlots-fleet/assets/icons/icon-128x128.png",
+        "/greenlots-fleet/assets/icons/icon-144x144.png",
+        "/greenlots-fleet/assets/icons/icon-152x152.png",
+        "/greenlots-fleet/assets/icons/icon-192x192.png",
+        "/greenlots-fleet/assets/icons/icon-384x384.png",
+        "/greenlots-fleet/assets/icons/icon-512x512.png",
+        "/greenlots-fleet/assets/icons/icon-72x72.png",
+        "/greenlots-fleet/assets/icons/icon-96x96.png",
+        "/greenlots-fleet/assets/logos/greenlots.svg",
+        "/greenlots-fleet/assets/svg/flash.svg",
+        "/greenlots-fleet/assets/svg/qr.svg"
+      ],
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/.*",
+        "https:\\/\\/fonts\\.gstatic\\.com\\/.*"
+      ]
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/greenlots-fleet/5-es2015.9c31d8ad8e052e8c4140.js": "92337843a56a6359893d1b90b7e0d2ff402bb2c3",
+    "/greenlots-fleet/5-es5.9c31d8ad8e052e8c4140.js": "5fecd06707447f92596fc12090e1f2c95b185ede",
+    "/greenlots-fleet/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/greenlots-fleet/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/greenlots-fleet/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/greenlots-fleet/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/greenlots-fleet/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/greenlots-fleet/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/greenlots-fleet/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/greenlots-fleet/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/greenlots-fleet/assets/logos/greenlots.svg": "759488d74dc014dfb317dc8a198e9052d09a7b71",
+    "/greenlots-fleet/assets/svg/flash.svg": "509dd9873325521c74b2fb609c21c9f9bd5de545",
+    "/greenlots-fleet/assets/svg/qr.svg": "26802f2b30e216f193bb95c577d59db432d74c0d",
+    "/greenlots-fleet/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/greenlots-fleet/index.html": "f4b855e2c663395a1eb0f44f8ec7153cb0281efa",
+    "/greenlots-fleet/main-es2015.0d14fa41163fb0b464bb.js": "8f5883092e798ddf343b4f748641347ac7fb82ce",
+    "/greenlots-fleet/main-es5.0d14fa41163fb0b464bb.js": "9f3b7825f6215712d9a5edb45ad0a3ea3f2a4371",
+    "/greenlots-fleet/manifest.webmanifest": "bce7aee0393d60b28d8f6e8fb49d28db49541be9",
+    "/greenlots-fleet/polyfills-es2015.66f22d07ce30f308d850.js": "8779ed8d9bf0580e1b50b352a9b8fd520be24433",
+    "/greenlots-fleet/polyfills-es5.072996a6e2aff385d46c.js": "265946cd9cab1b54c805b1580c6c30ed7c3f3e18",
+    "/greenlots-fleet/runtime-es2015.37f973100551c1c2b1c1.js": "c6677de909f4d12aec98dc1bb55af74c426fb830",
+    "/greenlots-fleet/runtime-es5.37f973100551c1c2b1c1.js": "b77e4e190f037184e7d3437a88855f84dac5f0d5",
+    "/greenlots-fleet/styles.05997d46e37c206fbf21.css": "2c194d9b02d6187ab7b05b4c4ef9832b125528b1"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
