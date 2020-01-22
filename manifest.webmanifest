@@ -1,8 +1,8 @@
 {
-  "name": "greenlots-fleet",
-  "short_name": "greenlots-fleet",
-  "theme_color": "#1976d2",
-  "background_color": "#fafafa",
+  "name": "Greenlots Fleet",
+  "short_name": "GLFleet",
+  "theme_color": "#586d86",
+  "background_color": "#586d86",
   "display": "standalone",
   "scope": ".",
   "start_url": ".",
