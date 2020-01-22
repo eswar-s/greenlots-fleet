@@ -5,3 +5,14 @@
     //     linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
     height: 100vh;
 }
+
+header {
+    background-color: rgb(242, 69, 61);
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}

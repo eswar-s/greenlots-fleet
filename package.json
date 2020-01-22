@@ -25,6 +25,7 @@
     "@angular/service-worker": "~9.0.0-rc.9",
     "@zxing/ngx-scanner": "^2.0.1",
     "hammerjs": "^2.0.8",
+    "ng-connection-service": "^1.0.4",
     "rxjs": "~6.5.3",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
