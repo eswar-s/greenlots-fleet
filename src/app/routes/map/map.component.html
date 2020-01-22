@@ -4,7 +4,7 @@
     </button> -->
     <p>Station ID</p>
 </header>
-<form class="glf-form-container" [formGroup]="stationForm" *ngIf="!scannerEnabled">
+<form class="glf-form-container glf-max-width" [formGroup]="stationForm" *ngIf="!scannerEnabled">
     <div class="glf-qr-scan">
         <button mat-icon-button class="glf-scan" *ngIf="!hasCameraAccess">
             <mat-icon svgIcon="glf-qr"></mat-icon>
@@ -24,7 +24,7 @@
     </div>
 </form>
 
-<div *ngIf="scannerEnabled">
+<div *ngIf="scannerEnabled" class="glf-max-width">
     <zxing-scanner
             [enable]="scannerEnabled"
             [formats]="allowedFormats"
