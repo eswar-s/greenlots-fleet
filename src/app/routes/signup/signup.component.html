@@ -1,0 +1,30 @@
+<header>
+    <button mat-icon-button (click)="backTo()">
+        <mat-icon>arrow_back_ios</mat-icon>
+    </button>
+    <p>Sign Up</p>
+</header>
+<form class="glf-form-container" [formGroup]="signupForm">
+    <mat-form-field class="glf-form-item">
+        <input matInput placeholder="First name" formControlName="firstName">
+    </mat-form-field>
+    <mat-form-field class="glf-form-item">
+        <input matInput placeholder="Last name" formControlName="lastName">
+    </mat-form-field>
+    <mat-form-field class="glf-form-item">
+        <input matInput placeholder="Your Phone Number" formControlName="phoneNumber">
+    </mat-form-field>
+    <mat-form-field class="glf-form-item">
+        <input matInput placeholder="Your Email" formControlName="email">
+    </mat-form-field>
+    <mat-form-field class="glf-form-item">
+        <input matInput placeholder="Create Password" formControlName="password">
+    </mat-form-field>
+    <mat-form-field class="glf-form-item">
+        <input matInput placeholder="Confirm Password" formControlName="confirmPassword">
+    </mat-form-field>
+    <mat-form-field class="glf-form-item">
+        <input matInput placeholder="Registration Key" formControlName="registrationKey">
+    </mat-form-field>
+    <button mat-flat-button color="primary" [disabled]="!signupForm.valid">Sign Up</button>
+</form>

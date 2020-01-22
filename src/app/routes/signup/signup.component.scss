@@ -1,0 +1,31 @@
+:host {
+    display: block;
+}
+
+header {
+    background: rgb(88,109,134);
+    color: #fff;
+    text-align: center;
+
+    button {
+        position: absolute;
+        left: 0;
+    }
+
+    p {
+        line-height: 40px;
+    }
+}
+
+.glf-form-container {
+    padding: 20px;
+
+    .glf-form-item {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    button {
+        width: 100%;
+    }
+}

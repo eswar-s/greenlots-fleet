@@ -1,0 +1,18 @@
+<div class="glf-container">
+    <h1>Welcome</h1>
+    <form class="glf-form-container" [formGroup]="loginForm">
+        <div class="glf-form-item">
+            <input type="email" formControlName="email" placeholder="Email address">
+            <label>Email address</label>
+        </div>
+        <div class="glf-form-item">
+            <input type="password" formControlName="password" placeholder="Password">
+            <label>Password</label>
+        </div>
+        <div class="glf-form-button">
+            <button mat-flat-button [disabled]="!loginForm.valid" (click)="login()">LOG IN</button>
+            <a mat-flat-button routerLink="/signup">SIGN UP</a>
+        </div>
+    </form>
+    <!-- <img src="/assets/logos/greenlots.svg"> -->
+</div>

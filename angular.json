@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "greenlots-fleet": {
@@ -25,12 +25,32 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/manifest.webmanifest"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/external-js/jsqrcode/grid.js",
+              "src/external-js/jsqrcode/version.js",
+              "src/external-js/jsqrcode/detector.js",
+              "src/external-js/jsqrcode/formatinf.js",
+              "src/external-js/jsqrcode/errorlevel.js",
+              "src/external-js/jsqrcode/bitmat.js",
+              "src/external-js/jsqrcode/datablock.js",
+              "src/external-js/jsqrcode/bmparser.js",
+              "src/external-js/jsqrcode/datamask.js",
+              "src/external-js/jsqrcode/rsdecoder.js",
+              "src/external-js/jsqrcode/gf256poly.js",
+              "src/external-js/jsqrcode/gf256.js",
+              "src/external-js/jsqrcode/decoder.js",
+              "src/external-js/jsqrcode/qrcode.js",
+              "src/external-js/jsqrcode/findpat.js",
+              "src/external-js/jsqrcode/alignpat.js",
+              "src/external-js/jsqrcode/databr.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -59,7 +79,9 @@
                   "maximumWarning": "6kb",
                   "maximumError": "10kb"
                 }
-              ]
+              ],
+              "serviceWorker": true,
+              "ngswConfigPath": "ngsw-config.json"
             }
           }
         },
@@ -89,9 +111,11 @@
             "karmaConfig": "karma.conf.js",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/manifest.webmanifest"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -121,8 +145,16 @@
               "devServerTarget": "greenlots-fleet:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "greenlots-fleet"
+    }
+  },
+  "defaultProject": "greenlots-fleet",
+  "cli": {
+    "analytics": "75e5ca3e-a094-4a72-9e14-bdd3c6fc4cf2"
+  }
 }

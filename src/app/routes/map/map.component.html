@@ -1,0 +1,71 @@
+<header>
+    <!-- <button mat-icon-button (click)="backTo()">
+        <mat-icon>arrow_back_ios</mat-icon>
+    </button> -->
+    <p>Station ID</p>
+</header>
+<form class="glf-form-container" [formGroup]="stationForm" *ngIf="!scannerEnabled">
+    <div class="glf-qr-scan">
+        <button mat-icon-button class="glf-scan" *ngIf="!hasCameraAccess">
+            <mat-icon svgIcon="glf-qr"></mat-icon>
+            <input type="file" accept="image/*" (change)="onFileChange($event)">
+        </button>
+        <button mat-icon-button (click)="scan()" class="glf-scan" *ngIf="hasCameraAccess">
+            <mat-icon svgIcon="glf-qr"></mat-icon>
+        </button>
+    </div>
+    <div class="glf-form-item">
+        <label>Enter Station ID</label>
+        <input type="text" formControlName="stationId">
+    </div>
+    <div class="glf-form-button">
+        <button mat-flat-button [disabled]="!stationForm.valid" (click)="submit()">SUBMIT ID</button>
+        <a mat-flat-button (click)="logout()">Logout</a>
+    </div>
+</form>
+
+<div *ngIf="scannerEnabled">
+    <zxing-scanner
+            [enable]="scannerEnabled"
+            [formats]="allowedFormats"
+            [torch]="torch"
+            (scanSuccess)="scanSuccessHandler($event)"
+    ></zxing-scanner>
+    <div class="glf-qr-scan">
+        <button mat-icon-button (click)="stop()" class="glf-stop">
+            <mat-icon svgIcon="glf-qr"></mat-icon>
+        </button>
+        <button mat-icon-button (click)="toggleTorch()"
+            [class.glf-flash-on]="torch === false"
+            [class.glf-flash-off]="torch === true"
+        >
+            <mat-icon svgIcon="glf-flash"></mat-icon>
+        </button>
+    </div>
+</div>
+
+<!-- <zxing-scanner *ngIf="!hasCameraAccess"
+    [enable]="false"
+    (hasDevices)="hasDevices($event)"
+    class="glf-hidden-scanner"
+></zxing-scanner> -->
+
+<!-- <div *ngIf="scannerEnabled">
+    <zxing-scanner
+        [formats]="allowedFormats"
+        [torch]="torch"
+        (scanSuccess)="scanSuccessHandler($event)"
+    ></zxing-scanner>
+    <div class="glf-qr-scan">
+        <button mat-icon-button (click)="stop()" class="glf-stop">
+            <mat-icon svgIcon="glf-qr"></mat-icon>
+        </button>
+        <button mat-icon-button (click)="toggleTorch()"
+            [class.glf-flash-on]="torch === false"
+            [class.glf-flash-off]="torch === true"
+        >
+            <mat-icon svgIcon="glf-flash"></mat-icon>
+        </button>
+    </div>
+</div> -->
+<p style="color: #fff; text-align: center;">{{scannedValue}}</p>
