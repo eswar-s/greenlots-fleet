@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1579733556736,
+  "timestamp": 1579734118814,
   "index": "https://eswar-s.github.io/greenlots-fleet/index.html",
   "assetGroups": [
     {
@@ -8,20 +8,20 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "https://eswar-s.github.io/greenlots-fleet/5-es2015.aba980fc8109c48d16a6.js",
-        "https://eswar-s.github.io/greenlots-fleet/5-es5.aba980fc8109c48d16a6.js",
+        "https://eswar-s.github.io/greenlots-fleet/5-es2015.5476254ff5a2f2decb8e.js",
+        "https://eswar-s.github.io/greenlots-fleet/5-es5.5476254ff5a2f2decb8e.js",
         "https://eswar-s.github.io/greenlots-fleet/apple-touch-icon.png",
         "https://eswar-s.github.io/greenlots-fleet/favicon.ico",
         "https://eswar-s.github.io/greenlots-fleet/index.html",
-        "https://eswar-s.github.io/greenlots-fleet/main-es2015.68a882cd54e16c8c7d40.js",
-        "https://eswar-s.github.io/greenlots-fleet/main-es5.68a882cd54e16c8c7d40.js",
+        "https://eswar-s.github.io/greenlots-fleet/main-es2015.d328340ddaa4f836b247.js",
+        "https://eswar-s.github.io/greenlots-fleet/main-es5.d328340ddaa4f836b247.js",
         "https://eswar-s.github.io/greenlots-fleet/manifest.webmanifest",
         "https://eswar-s.github.io/greenlots-fleet/polyfills-es2015.66f22d07ce30f308d850.js",
         "https://eswar-s.github.io/greenlots-fleet/polyfills-es5.072996a6e2aff385d46c.js",
-        "https://eswar-s.github.io/greenlots-fleet/runtime-es2015.9a6a56af22b7c4deada3.js",
-        "https://eswar-s.github.io/greenlots-fleet/runtime-es5.9a6a56af22b7c4deada3.js",
+        "https://eswar-s.github.io/greenlots-fleet/runtime-es2015.59aa046cf70f6eef5734.js",
+        "https://eswar-s.github.io/greenlots-fleet/runtime-es5.59aa046cf70f6eef5734.js",
         "https://eswar-s.github.io/greenlots-fleet/scripts.4c9a6777c436d2e3753e.js",
-        "https://eswar-s.github.io/greenlots-fleet/styles.a50c8ed4c9652a1a0ed5.css"
+        "https://eswar-s.github.io/greenlots-fleet/styles.f114ae3829f368bcc9b5.css"
       ],
       "patterns": []
     },
@@ -51,8 +51,8 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://eswar-s.github.io/greenlots-fleet/5-es2015.aba980fc8109c48d16a6.js": "d405299f6a86c3ee53d3d59af0835b02266c8580",
-    "https://eswar-s.github.io/greenlots-fleet/5-es5.aba980fc8109c48d16a6.js": "5e1321f57f4fef610b2b2cb0be1648fecb4ebad3",
+    "https://eswar-s.github.io/greenlots-fleet/5-es2015.5476254ff5a2f2decb8e.js": "f0e4ed77b01b60f5781af085c46534f4bde6ae11",
+    "https://eswar-s.github.io/greenlots-fleet/5-es5.5476254ff5a2f2decb8e.js": "2568ade76c6e1b41bbc8295eb8d3b45f94d490fb",
     "https://eswar-s.github.io/greenlots-fleet/apple-touch-icon.png": "9376187f04417c986e1bcc831b5b6b26687eb6eb",
     "https://eswar-s.github.io/greenlots-fleet/assets/icons/icon-128x128.png": "f77064243f14a20f880667bc0798719320a7e920",
     "https://eswar-s.github.io/greenlots-fleet/assets/icons/icon-144x144.png": "4aeb5bc541f79f7ee954e498bb6daabb23588ad7",
@@ -67,16 +67,16 @@
     "https://eswar-s.github.io/greenlots-fleet/assets/svg/qr.svg": "26802f2b30e216f193bb95c577d59db432d74c0d",
     "https://eswar-s.github.io/greenlots-fleet/favicon.ico": "85c51cc8b810ef9036c397f1d4e0eb5574346bf0",
     "https://eswar-s.github.io/greenlots-fleet/greenlots.7bb1c2bfb0a090dd803a.svg": "759488d74dc014dfb317dc8a198e9052d09a7b71",
-    "https://eswar-s.github.io/greenlots-fleet/index.html": "a7ad886772a5e22a5fb819f7cc49264307a2e6a3",
-    "https://eswar-s.github.io/greenlots-fleet/main-es2015.68a882cd54e16c8c7d40.js": "a7751ee89c56d7c1b34a0d31aaa6fc6b2f65244b",
-    "https://eswar-s.github.io/greenlots-fleet/main-es5.68a882cd54e16c8c7d40.js": "2574d7ca6dbc327bd0a2a464a3c7170ac4cd3a21",
+    "https://eswar-s.github.io/greenlots-fleet/index.html": "bbebc35616192f69ae9a6dd27f50b6f37a52eba1",
+    "https://eswar-s.github.io/greenlots-fleet/main-es2015.d328340ddaa4f836b247.js": "c3936d89966e446d3ad6f0b782e1ec4537496166",
+    "https://eswar-s.github.io/greenlots-fleet/main-es5.d328340ddaa4f836b247.js": "bcbf557d24877d4b8827eb5353a8193106fca9e2",
     "https://eswar-s.github.io/greenlots-fleet/manifest.webmanifest": "69981641768aefe9f7cb5ff9a4786bf83b66cebb",
     "https://eswar-s.github.io/greenlots-fleet/polyfills-es2015.66f22d07ce30f308d850.js": "8779ed8d9bf0580e1b50b352a9b8fd520be24433",
     "https://eswar-s.github.io/greenlots-fleet/polyfills-es5.072996a6e2aff385d46c.js": "265946cd9cab1b54c805b1580c6c30ed7c3f3e18",
-    "https://eswar-s.github.io/greenlots-fleet/runtime-es2015.9a6a56af22b7c4deada3.js": "ae550b2d7997ffce237c547d7693f9b7c6cd2656",
-    "https://eswar-s.github.io/greenlots-fleet/runtime-es5.9a6a56af22b7c4deada3.js": "763c131fff399644d80b2410a1c107e89a8cc45a",
+    "https://eswar-s.github.io/greenlots-fleet/runtime-es2015.59aa046cf70f6eef5734.js": "7c2949d9eeb0097e2720a211e50b88484b6fe83c",
+    "https://eswar-s.github.io/greenlots-fleet/runtime-es5.59aa046cf70f6eef5734.js": "b6970edb317efa9270b17993ccc51a6edb35a097",
     "https://eswar-s.github.io/greenlots-fleet/scripts.4c9a6777c436d2e3753e.js": "418a163692b77af30c68db5d62327f6a7080d99a",
-    "https://eswar-s.github.io/greenlots-fleet/styles.a50c8ed4c9652a1a0ed5.css": "823446cbbe298a6ec6bda7bd4a5eeb7b324f62fe"
+    "https://eswar-s.github.io/greenlots-fleet/styles.f114ae3829f368bcc9b5.css": "d487b2eb761352c4ac2aa074ec0d92552a26a6fd"
   },
   "navigationUrls": [
     {
