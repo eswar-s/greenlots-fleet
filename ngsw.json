@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1579660386811,
+  "timestamp": 1579660766891,
   "index": "https://eswar-s.github.io/greenlots-fleet/index.html",
   "assetGroups": [
     {
@@ -20,7 +20,7 @@
         "https://eswar-s.github.io/greenlots-fleet/runtime-es2015.42b9868249c3050deef6.js",
         "https://eswar-s.github.io/greenlots-fleet/runtime-es5.42b9868249c3050deef6.js",
         "https://eswar-s.github.io/greenlots-fleet/scripts.4c9a6777c436d2e3753e.js",
-        "https://eswar-s.github.io/greenlots-fleet/styles.d23fa3faa3e58cefb0b1.css"
+        "https://eswar-s.github.io/greenlots-fleet/styles.3a30eb402e59e851fa27.css"
       ],
       "patterns": []
     },
@@ -65,7 +65,7 @@
     "https://eswar-s.github.io/greenlots-fleet/assets/svg/qr.svg": "26802f2b30e216f193bb95c577d59db432d74c0d",
     "https://eswar-s.github.io/greenlots-fleet/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "https://eswar-s.github.io/greenlots-fleet/greenlots.7bb1c2bfb0a090dd803a.svg": "759488d74dc014dfb317dc8a198e9052d09a7b71",
-    "https://eswar-s.github.io/greenlots-fleet/index.html": "fba90a78875d581f91cf4462ed61eeff782a6dfc",
+    "https://eswar-s.github.io/greenlots-fleet/index.html": "2f6fe688c5c54c4783173966b159b79258c91b17",
     "https://eswar-s.github.io/greenlots-fleet/main-es2015.6c3b51366a5814376901.js": "55f56897902ec13e5d00e76a9621ce49bd94752f",
     "https://eswar-s.github.io/greenlots-fleet/main-es5.6c3b51366a5814376901.js": "9785bfe2c1dcf2983c40d59fa2195ac0a9ef4e56",
     "https://eswar-s.github.io/greenlots-fleet/manifest.webmanifest": "69981641768aefe9f7cb5ff9a4786bf83b66cebb",
@@ -74,7 +74,7 @@
     "https://eswar-s.github.io/greenlots-fleet/runtime-es2015.42b9868249c3050deef6.js": "d9fe9477581b19c00d820f7249fab69da0d885cc",
     "https://eswar-s.github.io/greenlots-fleet/runtime-es5.42b9868249c3050deef6.js": "e9e226054b61805fda3c6ed02adbf3b3500e099e",
     "https://eswar-s.github.io/greenlots-fleet/scripts.4c9a6777c436d2e3753e.js": "418a163692b77af30c68db5d62327f6a7080d99a",
-    "https://eswar-s.github.io/greenlots-fleet/styles.d23fa3faa3e58cefb0b1.css": "72cc433c3ea006e56baa4efcb36fe4f1e176bd28"
+    "https://eswar-s.github.io/greenlots-fleet/styles.3a30eb402e59e851fa27.css": "0442760c0b2a2b91afd80cada6484dec7e8e8ae7"
   },
   "navigationUrls": [
     {
